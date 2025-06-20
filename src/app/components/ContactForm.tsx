@@ -3,7 +3,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function ContactForm() {
-  const [state, handleSubmit, errors] = useForm("xzzgarwb");
+  const [state, handleSubmit] = useForm("xzzgarwb");
 
   return (
     <form onSubmit={handleSubmit} className="max-w-xl mx-auto space-y-6">
